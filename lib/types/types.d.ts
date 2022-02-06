@@ -285,6 +285,7 @@ declare global {
         legacy?: boolean,
         filtered_attributes?: string[],
         friendly_name: string,
+        notes?: string,
         qos?: 0 | 1 | 2,
     }
 

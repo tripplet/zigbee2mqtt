@@ -650,6 +650,7 @@ export default class Bridge extends Extension {
                 network_address: device.zh.networkAddress,
                 supported: !!device.definition,
                 friendly_name: device.name,
+                notes: device.options.notes,
                 definition: this.getDefinitionPayload(device),
                 power_source: device.zh.powerSource,
                 software_build_id: device.zh.softwareBuildID,
